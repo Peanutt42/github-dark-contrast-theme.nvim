@@ -329,8 +329,7 @@ hi(0, "@lsp.type.typeParameter", { fg = c.syn_type })
 hi(0, "@lsp.type.variable", { fg = c.syn_variable })
 hi(0, "@lsp.type.typeAlias", { fg = c.syn_type })
 hi(0, "@lsp.type.derive", { fg = c.syn_type })
-hi(0, "@lsp.mod.static", { fg = c.syn_type })
-hi(0, "@lsp.mod.constructor", { fg = c.syn_type })
+hi(0, "@lsp.mod.constructor", { fg = c.syn_function })
 
 -- ================================================
 -- Language specific customization
