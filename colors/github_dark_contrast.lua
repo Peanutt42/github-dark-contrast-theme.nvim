@@ -653,6 +653,11 @@ hi(0, "DiagnosticSignInfo", { fg = c.info })
 hi(0, "DiagnosticSignHint", { fg = c.hint })
 
 -- ================================================
+-- LSP inlay hints
+-- ================================================
+hi(0, "LspInlayHint", { fg = "#343434", italic = true })
+
+-- ================================================
 -- Git signs / diff
 -- ================================================
 hi(0, "DiffAdd", { fg = c.created, bg = "#0d1f0d" })
